@@ -1,0 +1,8 @@
+# Ruff configuration for Pascal repo
+# Preserve existing code style
+
+indent-width = 2
+
+[lint]
+# Ignore naming convention rules (PascalCase function names are intentional)
+ignore = ["N802", "N803"]
